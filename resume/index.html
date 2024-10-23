@@ -11,8 +11,13 @@
       }
       
       .custom-gap-list li {
-        margin-bottom: 4px; /* Adds gap between list items */
+           margin-bottom: 15px;/* Adds gap between list items */
+           list-style: disc;
       }
+      li span {
+  position: relative;
+  left: -20px;
+}
       </style>
 </head>
 <body>
@@ -21,7 +26,7 @@
             <img src="\dafdf25168edcb2f0e1d8702797946cc.jpg" alt="Random Image" />
 
             <div class="contact">
-                <h1>Contact</h1>
+                <h1 style="margin-bottom: 2%;">Contact</h1>
                 <hr>
               <span class="adress" >
                <h3>Phone</h3>
@@ -40,7 +45,7 @@
             </div>
 
             <div class="edu">
-                <h1>Education</h1>
+                <h1 style="margin-bottom: 2%;" >Education</h1>
               <hr>
                 <span class="edu-info">
                     <p class="year">2008</p>
@@ -57,15 +62,15 @@
             </div>
 
             <div class="expertise">
-                <h1>Expertise</h1>
+                <h1 style="margin-bottom: 2%;" >Expertise</h1>
                 <hr>
                 <ul class="custom-gap-list">
-                    <li>UI/UX</li>
-                    <li>Visual Design</li>
-                    <li>Wireframes</li>
-                    <li>Storyboards</li>
-                    <li>User Flows</li>
-                    <li>Process Flows</li>
+                    <li> <span> UI/UX</span></li>
+                    <li> <span>Visual Design</span></li>
+                    <li> <span>Wireframes</span></li>
+                    <li> <span>Storyboards</span></li>
+                    <li> <span>User Flows</span></li>
+                    <li> <span>Process Flows</span></li>
                   </ul>
                   
                   
@@ -74,7 +79,7 @@
             </div>
 
             <div class="lang">
-                <h1>Language</h1>
+                <h1 style="margin-bottom: 2%;" >Language</h1>
                 <hr>
                    <p>English</p>
                    <p>Spanish</p>
@@ -82,20 +87,22 @@
             </div>
 
 </div>  
-<div class="div2" style="background-color: white; width: 100%; padding: 10px 20px;">
-    <div class="name">
+<div class="div2" style="background-color: white; width: 100%; padding: 1px 40px; ">
+    <div class="name" >
         <p>
-           <div style="font-size: 60px; gap: 10px; display: flex;
+           <div style="font-size: 60px;  color: hsl(223.33deg 15.52% 22.75%); gap: 10px; display: flex;
   align-items: center;"> <span class="name-first">Mariana</span> Anderson</div>
         </p>
         <p class="position">Marketing Manager</p>
-        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore est possimus modi facilis itaque iure ipsam, temporibus aperiam quidem quis sapiente corporis, minima molestiae porro cupiditate tenetur amet quibusdam suscipit!</p>
+        <p   class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore est possimus modi facilis itaque iure ipsam, temporibus aperiam quidem quis sapiente corporis, minima molestiae porro cupiditate tenetur amet quibusdam suscipit!</p>
     </div>
 
 
      <div>
-        <h1 style="color:  rgb(50 59 76); ">Experience</h1>
-        <hr>
+        <h1 style="color:  rgb(50 59 76);  ">Experience
+         <hr style="margin-top: 10px; background-color: hsl(230deg 3% 39.22%); height: 1px">    
+        </h1>
+       
 
         <!-- <ul style="list-style-type: none; list-style: none ;">
             <li>
@@ -113,7 +120,7 @@
             </li>
 
         </ul> -->
-        <ul>
+        <ul style="  padding-left: 2px; " >
             <li>
               <div class="bullet big">
                 <svg aria-hidden="true" viewBox="0 0 32 32" focusable="false" stroke="hsl(226.67, 8.26%, 21.37%)" stroke-width="4" fill="none">
@@ -123,8 +130,8 @@
                   
               </div>
               <h3 style="color: hsl(0deg 0% 43.14%);">2019-2022</h3>
-              <p style="margin-top: -2%; color: hsl(0deg 0% 55.69%); font-size: 20px; font-weight: 800;">Company Name | 123 Anywhere St. Any City</p>
-              <p style="font-size: 25px; margin-top: -2%; font-weight: bold;  color: rgb(50 59 76);">Job position here</p>
+              <p style="margin-top: -4%; color: hsl(0deg 0% 55.69%); font-size: 20px; font-weight: 300;">Company Name | 123 Anywhere St. Any City</p>
+              <p style="font-size: 25px; margin-top: -2%; font-weight: bold;  color: hsl(0deg 0% 44.31%)">Job position here</p>
               <p style="margin-top: -3%; color: hsl(0deg 0% 53.33%);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quibusdam, aspernatur voluptate consequuntur doloremque nam excepturi architecto dolore earum? Quod velit soluta quasi sunt maiores quibusdam, a possimus qui neque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt temporibus nisi architecto velit adipisci quisquam! Tempore commodi minus ut nihil corrupti id earum cupiditate amet! Consequuntur officia sit fugiat quisquam!</p>
             </li>
             
@@ -136,8 +143,8 @@
                 </div>
                 
               <h3 style="color: hsl(0deg 0% 43.14%);">2019-2022</h3>
-                <p style=" color: hsl(0deg 0% 55.69%); font-size: 20px; font-weight: 800;">Company Name | 123 Anywhere St. Any City</p>
-                <p style="font-size: 25px; margin-top: -2%; font-weight: bold;  color: rgb(50 59 76);">Job position here</p>
+              <p style="margin-top: -4%; color: hsl(0deg 0% 55.69%); font-size: 20px; font-weight: 300;">Company Name | 123 Anywhere St. Any City</p>
+                <p style="font-size: 25px; margin-top: -2%; font-weight: bold;  color: hsl(0deg 0% 44.31%);">Job position here</p>
                 <p style="margin-top: 0%; color: hsl(0deg 0% 53.33%);"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, dolores expedita quo eum possimus quia atque, modi quidem sapiente commodi illum veniam consequatur quaerat eligendi incidunt quis delectus! Dolores, saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt temporibus nisi architecto velit adipisci quisquam! Tempore commodi minus ut nihil corrupti id earum cupiditate amet! Consequuntur officia sit fugiat quisquam!</p>
             </li>
             <li>
@@ -147,8 +154,8 @@
                     </svg>
                 </div>
               <h3 style="color: hsl(0deg 0% 43.14%);">2019-2022</h3>
-                <p style="margin-top: -2%; color: hsl(0deg 0% 55.69%); font-size: 20px; font-weight: 800;">Company Name | 123 Anywhere St. Any City</p>
-                <p style="font-size: 25px; margin-top: -2%; font-weight: bold;  color: rgb(50 59 76);">Job position here</p>
+              <p style="margin-top: -4%; color: hsl(0deg 0% 55.69%); font-size: 20px; font-weight: 300;">Company Name | 123 Anywhere St. Any City</p>
+                <p style="font-size: 25px; margin-top: -2%; font-weight: bold;  color:hsl(0deg 0% 44.31%);">Job position here</p>
                 <p style="margin-top: -3%; color: hsl(0deg 0% 53.33%);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quae vel totam officia quos consectetur, rem sed beatae numquam unde dignissimos omnis aperiam itaque non natus reiciendis vitae mollitia perferendis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt temporibus nisi architecto velit adipisci quisquam! Tempore commodi minus ut nihil corrupti id earum cupiditate amet! Consequuntur officia sit fugiat quisquam!</p>
             </li>
             
@@ -162,23 +169,25 @@
 
           <div class="ref">
             
-            <h1 style="color:  rgb(50 59 76); ">Reference</h1>
-           <hr>
-            <div style="display: flex; width: 100%; justify-content: space-between;">
+            <h1 style="color:  rgb(50 59 76); padding-left: 1%; ">Reference
+            <hr style="margin-top: 4px; background-color: hsl(230deg 3% 39.22%); height: 1px;">     
+            </h1>
+          
+            <div style="display: flex;  justify-content: space-around; margin-top: -5%; width: 100%;  padding: 0px 0px;">
                 <div>
-                    <p style="font-weight: 800; font-size: 24px;">Name Surname</p>
-                    <p style="font-weight: 100; color:  rgb(50 59 76); font-size: 20px; margin-top: -6%;">Job position,Company Name</p>
-                      <span style="display: flex; gap: 14px; margin-top: -10%;" ><p style="font-weight: bold;">Phone:</p> <p>123-234-4567</p></span>
-                      <span style="display: flex; gap: 14px; margin-top: -10%;" ><p style="font-weight: bold;">Email:</p> <p>hello45@gmail.com</p></span>
+                    <p style="font-weight: 800; color: hsl(214.29deg 10.45% 26.27%); font-size: 20px;">Name Surname</p>
+                    <p style="font-weight: lighter; color:  hsl(0deg 0% 55.69%); font-size: 18px; margin-top: -6%;">Job position,Company Name</p>
+                      <span style="display: flex; gap: 14px; margin-top: -10%;;" ><p style="font-weight: bold;  color: hsl(210deg 4.35% 27.06%); ">Phone:</p> <p style="color: hsl(0deg 0% 55.69%);">123-234-4567</p></span>
+                      <span style="display: flex;  gap: 14px; margin-top: -10%;" ><p style="font-weight: bold; color: hsl(210deg 4.35% 27.06%); ">Email:</p> <p style="color: hsl(0deg 0% 55.69%);" >hello45@gmail.com</p></span>
                 </div>
                 <div>
-                    <p style="font-weight: 800; font-size: 24px;">Name Surname</p>
-                    <p style="font-weight: 100; color:  rgb(50 59 76); font-size: 20px; margin-top: -6%;">Job position,Company Name</p>
-                      <span style="display: flex; gap: 14px; margin-top: -10%;" ><p style="font-weight: bold;">Phone:</p> <p>123-234-4567</p></span>
-                      <span style="display: flex; gap: 14px; margin-top: -10%;" ><p style="font-weight: bold;">Email:</p> <p>hello45@gmail.com</p></span>
+                    <p style="font-weight: 800; color: hsl(214.29deg 10.45% 26.27%); font-size: 20px;">Name Surname</p>
+                    <p style="font-weight: lighter;  color:  hsl(0deg 0% 55.69%); font-size: 18px; margin-top: -6%;">Job position,Company Name</p>
+                      <span style="display: flex; gap: 14px; margin-top: -10%;" ><p style="font-weight: bold; color: hsl(210deg 4.35% 27.06%); ">Phone:</p> <p style="color: hsl(0deg 0% 55.69%);"> 123-234-4567</p></span>
+                      <span style="display: flex; gap: 14px;  margin-top: -10%;" ><p style="font-weight: bold; color: hsl(210deg 4.35% 27.06%); ">Email:</p> <p style="color: hsl(0deg 0% 55.69%);">hello45@gmail.com</p></span>
                 </div>
             </div>
-            <hr>
+          
     
 
 
