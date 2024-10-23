@@ -1,6 +1,6 @@
 body{
-      background-color: rgb(50 59 76);
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+      background-color: black;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .containor{
     display: flex;
@@ -17,6 +17,7 @@ img {
 hr{
     height: 1px;
     background-color: white;
+   
 }
 
 .div1{
@@ -25,8 +26,8 @@ hr{
      display: flex;
      flex-direction: column;
      padding: 5% 0%;
-     padding-left: 1%;
-     width: 40%;
+     padding-left: 4%;
+     width: 50%;
      
 }
 .adress{
@@ -75,16 +76,21 @@ ul li:last-child {
     margin-bottom: 0; 
 }
 .name-first {
+    color: hsl(223.85deg 21.67% 23.53%);
     font-size: 60px;
     font-weight: bold; /* Add the desired font weight here */
 }
-
+.description{
+    color: hsl(0deg 0% 50.59%);
+    margin-top: -4%;
+}
 
 
 .position {
-    margin-top: -2%;
+    margin-top: -3%;
     font-size: 30px;
     letter-spacing: 5px;
+    color: hsl(233.33deg 7.96% 22.16%);
 }
 
 
